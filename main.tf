@@ -44,5 +44,3 @@ resource "aws_route" "igw" {
   gateway_id = aws_internet_gateway.igw.id
   destination_cidr_block = "0.0.0.0/0"
 }
-
-
